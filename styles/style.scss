@@ -1,0 +1,21 @@
+$primaryBtn : rgb(6, 247, 106);
+$textColor : black;
+
+header {
+background: lightblue;
+display: flex;
+justify-content: center;
+color: $textColor;
+button {
+    background: $primaryBtn;
+    &:hover {
+    background: red;
+    }
+}
+p {
+    color: $textColor;
+}
+}
+.contact button {
+    background: $primaryBtn;
+}
